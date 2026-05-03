@@ -2,19 +2,19 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --primary:     #C4714A;
-  --primary-dk:  #A8583A;
-  --secondary:   #F0C080;
-  --accent:      #7BA99A;
-  --bg:          #FFF8F2;
-  --bg-alt:      #FEF0E3;
-  --bg-dark:     #3D2318;
-  --text:        #2D1B0E;
-  --text-mid:    #7A5C4A;
+  --primary:     #B8891E;
+  --primary-dk:  #9A7018;
+  --secondary:   #E8D4A0;
+  --accent:      #4B6B5D;
+  --bg:          #F8F6F0;
+  --bg-alt:      #F0EBE0;
+  --bg-dark:     #15151F;
+  --text:        #1C1812;
+  --text-mid:    #6B5E42;
   --white:       #FFFFFF;
   --radius:      14px;
-  --shadow:      0 4px 28px rgba(61,35,24,.10);
-  --shadow-lg:   0 12px 40px rgba(61,35,24,.16);
+  --shadow:      0 4px 28px rgba(28,24,18,.10);
+  --shadow-lg:   0 12px 40px rgba(28,24,18,.18);
 }
 
 html  { scroll-behavior: smooth; }
@@ -135,7 +135,7 @@ section    { padding: 5.5rem 0; }
 }
 .blob {
   width: 340px; height: 380px;
-  background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
+  background: linear-gradient(135deg, #2B2820 0%, #15151F 60%, #B8891E 100%);
   border-radius: 60% 40% 55% 45% / 50% 45% 55% 50%;
   display: flex; align-items: center; justify-content: center;
   font-size: 9rem;
