@@ -13,12 +13,12 @@
 
   <!-- ── Navbar ── -->
   <nav class="navbar">
-    <div class="nav-brand">🎷 Regina</div>
+    <div class="nav-brand" data-key="nav.brand">🎷 Regina</div>
     <ul class="nav-links">
-      <li><a href="#about"    data-es="Sobre mí"  data-en="About">Sobre mí</a></li>
-      <li><a href="#services" data-es="Servicios" data-en="Services">Servicios</a></li>
-      <li><a href="#booking"  data-es="Agendar"   data-en="Book">Agendar</a></li>
-      <li><a href="#contact"  data-es="Contacto"  data-en="Contact">Contacto</a></li>
+      <li><a href="#about"    data-key="nav.about">Sobre mí</a></li>
+      <li><a href="#services" data-key="nav.services">Servicios</a></li>
+      <li><a href="#booking"  data-key="nav.booking">Agendar</a></li>
+      <li><a href="#contact"  data-key="nav.contact">Contacto</a></li>
     </ul>
     <div class="nav-actions">
       <button class="lang-btn" id="langBtn" onclick="toggleLang()">EN</button>
@@ -29,17 +29,17 @@
   <!-- ── Hero ── -->
   <section class="hero" id="home">
     <div class="hero-content">
-      <p class="hero-eyebrow" data-es="Bienvenido/a" data-en="Welcome">Bienvenido/a</p>
+      <p class="hero-eyebrow" data-key="hero.eyebrow">Bienvenido/a</p>
       <h1 class="hero-title">
-        <span data-es="Musicoterapia" data-en="Music Therapy">Musicoterapia</span><br>
-        <em data-es="con Regina" data-en="with Regina">con Regina</em>
+        <span data-key="hero.title1">Musicoterapia</span><br>
+        <em data-key="hero.title2">con Regina</em>
       </h1>
-      <p class="hero-desc" data-es="Sanando cuerpo y mente a través del poder transformador de la música." data-en="Healing body and mind through the transformative power of music.">
+      <p class="hero-desc" data-key="hero.desc">
         Sanando cuerpo y mente a través del poder transformador de la música.
       </p>
       <div class="hero-btns">
-        <a href="#booking" class="btn btn-primary" data-es="Agenda tu sesión" data-en="Book your session">Agenda tu sesión</a>
-        <a href="#about"   class="btn btn-outline"  data-es="Conoce más"       data-en="Learn more">Conoce más</a>
+        <a href="#booking" class="btn btn-primary" data-key="hero.btnPrimary">Agenda tu sesión</a>
+        <a href="#about"   class="btn btn-outline"  data-key="hero.btnOutline">Conoce más</a>
       </div>
     </div>
     <div class="hero-visual">
@@ -61,28 +61,26 @@
         >
       </div>
       <div class="about-body">
-        <span class="tag" data-es="Sobre mí" data-en="About me">Sobre mí</span>
-        <h2 data-es="Hola, soy Regina" data-en="Hi, I'm Regina">Hola, soy Regina</h2>
-        <p data-es="Soy musicoterapeuta certificada con amplia experiencia usando la música como herramienta terapéutica para mejorar el bienestar emocional, físico y mental de mis pacientes."
-           data-en="I am a certified music therapist with extensive experience using music as a therapeutic tool to improve the emotional, physical and mental wellbeing of my patients.">
+        <span class="tag" data-key="about.tag">Sobre mí</span>
+        <h2 data-key="about.heading">Hola, soy Regina</h2>
+        <p data-key="about.p1">
           Soy musicoterapeuta certificada con amplia experiencia usando la música como herramienta terapéutica para mejorar el bienestar emocional, físico y mental de mis pacientes.
         </p>
-        <p data-es="Mi enfoque combina técnicas basadas en evidencia con un trato cálido y personalizado, adaptándome a las necesidades únicas de cada persona."
-           data-en="My approach combines evidence-based techniques with warm, personalized care, adapting to the unique needs of each individual.">
+        <p data-key="about.p2">
           Mi enfoque combina técnicas basadas en evidencia con un trato cálido y personalizado, adaptándome a las necesidades únicas de cada persona.
         </p>
         <div class="stats">
           <div class="stat">
-            <strong>+5</strong>
-            <span data-es="años de experiencia" data-en="years experience">años de experiencia</span>
+            <strong data-stat="years">+5</strong>
+            <span data-key="about.stat1Label">años de experiencia</span>
           </div>
           <div class="stat">
-            <strong>+200</strong>
-            <span data-es="pacientes atendidos" data-en="patients treated">pacientes atendidos</span>
+            <strong data-stat="patients">+200</strong>
+            <span data-key="about.stat2Label">pacientes atendidos</span>
           </div>
           <div class="stat">
-            <strong>4</strong>
-            <span data-es="tipos de terapia" data-en="therapy types">tipos de terapia</span>
+            <strong data-stat="types">4</strong>
+            <span data-key="about.stat3Label">tipos de terapia</span>
           </div>
         </div>
       </div>
@@ -92,52 +90,47 @@
   <!-- ── Services ── -->
   <section class="services" id="services">
     <div class="container">
-      <span class="tag center" data-es="Lo que ofrezco" data-en="What I offer">Lo que ofrezco</span>
-      <h2 class="center" data-es="Servicios" data-en="Services">Servicios</h2>
-      <p class="section-desc" data-es="Cada sesión es un espacio seguro y personalizado donde la música se convierte en herramienta de bienestar."
-         data-en="Each session is a safe, personalized space where music becomes a tool for wellbeing.">
+      <span class="tag center" data-key="services.tag">Lo que ofrezco</span>
+      <h2 class="center" data-key="services.heading">Servicios</h2>
+      <p class="section-desc" data-key="services.desc">
         Cada sesión es un espacio seguro y personalizado donde la música se convierte en herramienta de bienestar.
       </p>
       <div class="cards">
 
         <div class="card">
           <span class="card-icon">🎷</span>
-          <h3 data-es="Terapia Individual" data-en="Individual Therapy">Terapia Individual</h3>
-          <p data-es="Sesiones personalizadas enfocadas en tus objetivos. Un espacio privado y de confianza para tu proceso terapéutico."
-             data-en="Personalized sessions focused on your goals. A private, trusting space for your therapeutic journey.">
+          <h3 data-key="service1.title">Terapia Individual</h3>
+          <p data-key="service1.desc">
             Sesiones personalizadas enfocadas en tus objetivos. Un espacio privado y de confianza para tu proceso terapéutico.
           </p>
-          <a href="#booking" class="card-link" data-es="Agendar →" data-en="Book →">Agendar →</a>
+          <a href="#booking" class="card-link" data-key="service1.link">Agendar →</a>
         </div>
 
         <div class="card">
           <span class="card-icon">🎶</span>
-          <h3 data-es="Terapia Grupal" data-en="Group Therapy">Terapia Grupal</h3>
-          <p data-es="La música como puente de conexión social. Sesiones donde se trabaja la expresión colectiva y el apoyo mutuo."
-             data-en="Music as a bridge for social connection. Sessions focused on collective expression and mutual support.">
+          <h3 data-key="service2.title">Terapia Grupal</h3>
+          <p data-key="service2.desc">
             La música como puente de conexión social. Sesiones donde se trabaja la expresión colectiva y el apoyo mutuo.
           </p>
-          <a href="#booking" class="card-link" data-es="Agendar →" data-en="Book →">Agendar →</a>
+          <a href="#booking" class="card-link" data-key="service2.link">Agendar →</a>
         </div>
 
         <div class="card">
           <span class="card-icon">🎸</span>
-          <h3 data-es="Terapia para Niños" data-en="Children's Therapy">Terapia para Niños</h3>
-          <p data-es="A través del juego musical, los niños desarrollan habilidades emocionales, cognitivas y sociales de forma divertida."
-             data-en="Through musical play, children develop emotional, cognitive and social skills in a fun and engaging way.">
+          <h3 data-key="service3.title">Terapia para Niños</h3>
+          <p data-key="service3.desc">
             A través del juego musical, los niños desarrollan habilidades emocionales, cognitivas y sociales de forma divertida.
           </p>
-          <a href="#booking" class="card-link" data-es="Agendar →" data-en="Book →">Agendar →</a>
+          <a href="#booking" class="card-link" data-key="service3.link">Agendar →</a>
         </div>
 
         <div class="card">
           <span class="card-icon">🎹</span>
-          <h3 data-es="Adultos Mayores" data-en="Elderly Care">Adultos Mayores</h3>
-          <p data-es="Programa especializado que usa la música para estimular la memoria, mejorar el estado de ánimo y la calidad de vida."
-             data-en="Specialized program using music to stimulate memory, improve mood and enhance overall quality of life.">
+          <h3 data-key="service4.title">Adultos Mayores</h3>
+          <p data-key="service4.desc">
             Programa especializado que usa la música para estimular la memoria, mejorar el estado de ánimo y la calidad de vida.
           </p>
-          <a href="#booking" class="card-link" data-es="Agendar →" data-en="Book →">Agendar →</a>
+          <a href="#booking" class="card-link" data-key="service4.link">Agendar →</a>
         </div>
 
       </div>
@@ -147,15 +140,15 @@
   <!-- ── Benefits ── -->
   <section class="benefits">
     <div class="container">
-      <span class="tag center light" data-es="¿Por qué la musicoterapia?" data-en="Why music therapy?">¿Por qué la musicoterapia?</span>
-      <h2 class="center light" data-es="Beneficios comprobados" data-en="Proven benefits">Beneficios comprobados</h2>
+      <span class="tag center light" data-key="benefits.tag">¿Por qué la musicoterapia?</span>
+      <h2 class="center light" data-key="benefits.heading">Beneficios comprobados</h2>
       <div class="benefits-grid">
-        <div class="benefit"><span>🧠</span><h4 data-es="Salud Mental"        data-en="Mental Health">Salud Mental</h4>        <p data-es="Reduce la ansiedad, el estrés y la depresión"          data-en="Reduces anxiety, stress and depression">Reduce la ansiedad, el estrés y la depresión</p></div>
-        <div class="benefit"><span>❤️</span><h4 data-es="Bienestar Emocional" data-en="Emotional Wellbeing">Bienestar Emocional</h4><p data-es="Mejora el estado de ánimo y la autoestima"              data-en="Improves mood and self-esteem">Mejora el estado de ánimo y la autoestima</p></div>
-        <div class="benefit"><span>🤝</span><h4 data-es="Vínculos Sociales"   data-en="Social Skills">Vínculos Sociales</h4>    <p data-es="Fortalece la comunicación y las relaciones"           data-en="Strengthens communication and relationships">Fortalece la comunicación y las relaciones</p></div>
-        <div class="benefit"><span>💪</span><h4 data-es="Desarrollo Cognitivo" data-en="Cognitive Growth">Desarrollo Cognitivo</h4><p data-es="Estimula la memoria, atención y creatividad"            data-en="Stimulates memory, attention and creativity">Estimula la memoria, atención y creatividad</p></div>
-        <div class="benefit"><span>🌿</span><h4 data-es="Rehabilitación"       data-en="Rehabilitation">Rehabilitación</h4>       <p data-es="Apoya procesos de recuperación física y neurológica" data-en="Supports physical and neurological recovery">Apoya procesos de recuperación física y neurológica</p></div>
-        <div class="benefit"><span>☀️</span><h4 data-es="Calidad de Vida"      data-en="Quality of Life">Calidad de Vida</h4>      <p data-es="Mejora el bienestar general y el disfrute diario"   data-en="Improves overall wellbeing and daily enjoyment">Mejora el bienestar general y el disfrute diario</p></div>
+        <div class="benefit"><span>🧠</span><h4 data-key="benefit1.title">Salud Mental</h4>        <p data-key="benefit1.desc">Reduce la ansiedad, el estrés y la depresión</p></div>
+        <div class="benefit"><span>❤️</span><h4 data-key="benefit2.title">Bienestar Emocional</h4> <p data-key="benefit2.desc">Mejora el estado de ánimo y la autoestima</p></div>
+        <div class="benefit"><span>🤝</span><h4 data-key="benefit3.title">Vínculos Sociales</h4>   <p data-key="benefit3.desc">Fortalece la comunicación y las relaciones</p></div>
+        <div class="benefit"><span>💪</span><h4 data-key="benefit4.title">Desarrollo Cognitivo</h4><p data-key="benefit4.desc">Estimula la memoria, atención y creatividad</p></div>
+        <div class="benefit"><span>🌿</span><h4 data-key="benefit5.title">Rehabilitación</h4>      <p data-key="benefit5.desc">Apoya procesos de recuperación física y neurológica</p></div>
+        <div class="benefit"><span>☀️</span><h4 data-key="benefit6.title">Calidad de Vida</h4>     <p data-key="benefit6.desc">Mejora el bienestar general y el disfrute diario</p></div>
       </div>
     </div>
   </section>
@@ -163,16 +156,11 @@
   <!-- ── Booking ── -->
   <section class="booking" id="booking">
     <div class="container">
-      <span class="tag center" data-es="¿Listo para comenzar?" data-en="Ready to start?">¿Listo para comenzar?</span>
-      <h2 class="center" data-es="Agenda tu sesión" data-en="Book your session">Agenda tu sesión</h2>
-      <p class="section-desc" data-es="Elige el horario que más te acomode. La primera consulta es sin costo."
-         data-en="Choose the time that suits you best. The first consultation is free.">
+      <span class="tag center" data-key="booking.tag">¿Listo para comenzar?</span>
+      <h2 class="center" data-key="booking.heading">Agenda tu sesión</h2>
+      <p class="section-desc" data-key="booking.desc">
         Elige el horario que más te acomode. La primera consulta es sin costo.
       </p>
-      <!--
-        EDITAR: Reemplaza la URL de Calendly con la tuya.
-        Ejemplo: https://calendly.com/tu-usuario/sesion-musicoterapia
-      -->
       <div
         class="calendly-inline-widget"
         data-url="https://calendly.com/REEMPLAZA-TU-USUARIO/sesion-musicoterapia"
@@ -184,36 +172,32 @@
   <!-- ── Contact ── -->
   <section class="contact" id="contact">
     <div class="container">
-      <span class="tag center" data-es="Contáctame" data-en="Contact me">Contáctame</span>
-      <h2 class="center" data-es="¿Tienes preguntas?" data-en="Have questions?">¿Tienes preguntas?</h2>
+      <span class="tag center" data-key="contact.tag">Contáctame</span>
+      <h2 class="center" data-key="contact.heading">¿Tienes preguntas?</h2>
       <div class="contact-grid">
 
         <div class="contact-card">
           <span class="contact-icon">📞</span>
-          <h4 data-es="Teléfono" data-en="Phone">Teléfono</h4>
-          <!-- EDITAR: Cambia el número aquí -->
-          <a href="tel:+56912345678">+56 9 1234 5678</a>
+          <h4 data-key="contact.phoneLabel">Teléfono</h4>
+          <a data-contact="phone" href="tel:+56912345678">+56 9 1234 5678</a>
         </div>
 
         <div class="contact-card">
           <span class="contact-icon">✉️</span>
-          <h4 data-es="Email" data-en="Email">Email</h4>
-          <!-- EDITAR: Cambia el email aquí -->
-          <a href="mailto:regina@musicoterapia.cl">regina@musicoterapia.cl</a>
+          <h4 data-key="contact.emailLabel">Email</h4>
+          <a data-contact="email" href="mailto:regina@musicoterapia.cl">regina@musicoterapia.cl</a>
         </div>
 
         <div class="contact-card">
           <span class="contact-icon">📍</span>
-          <h4 data-es="Ubicación" data-en="Location">Ubicación</h4>
-          <!-- EDITAR: Cambia la ubicación aquí -->
-          <p data-es="Santiago, Chile" data-en="Santiago, Chile">Santiago, Chile</p>
+          <h4 data-key="contact.locationLabel">Ubicación</h4>
+          <p data-contact="location">Santiago, Chile</p>
         </div>
 
         <div class="contact-card">
           <span class="contact-icon">🕐</span>
-          <h4 data-es="Horario" data-en="Hours">Horario</h4>
-          <!-- EDITAR: Cambia el horario aquí -->
-          <p data-es="Lun–Vie: 9:00–18:00" data-en="Mon–Fri: 9:00–6:00 pm">Lun–Vie: 9:00–18:00</p>
+          <h4 data-key="contact.hoursLabel">Horario</h4>
+          <p data-contact="hours">Lun–Vie: 9:00–18:00</p>
         </div>
 
       </div>
@@ -223,14 +207,15 @@
   <!-- ── Footer ── -->
   <footer class="footer">
     <div class="container footer-inner">
-      <p class="footer-brand">🎷 Regina — Musicoterapia</p>
-      <p class="footer-copy" data-es="© 2025 Regina. Todos los derechos reservados." data-en="© 2025 Regina. All rights reserved.">
+      <p class="footer-brand" data-key="footer.brand">🎷 Regina — Musicoterapia</p>
+      <p class="footer-copy" data-key="footer.copy">
         © 2025 Regina. Todos los derechos reservados.
       </p>
     </div>
   </footer>
 
   <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  <script src="content.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
